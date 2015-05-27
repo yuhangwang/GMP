@@ -9,6 +9,12 @@ Please visit the official website for more details: https://gmplib.org/
 
 ##Compilation note:
 
+### Compilation environment
+* CentOS 6.6
+* X86_64 architecture
+* Compiler: gcc version 4.4.7 20120313 (Red Hat 4.4.7-11)
+
+### Compilation steps
 ```bash
 wget ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-4.3.2.tar.bz2
 bunzip2 gmp-4.3.2.tar.bz2
