@@ -12,7 +12,7 @@ Please visit the official website for more details: https://gmplib.org/
 ## Important notes
 The binary/ folder contains both a tar.gz file and a folder, which are equivalent. You can use either one.
 
-##Compilation note:
+##Compilation notes
 
 ### Compilation environment
 * CentOS 6.6
@@ -31,4 +31,6 @@ make -j10
 make check
 make install
 ```
+
+### Quality verification
 See the CheckResults.txt for output of "make check".
