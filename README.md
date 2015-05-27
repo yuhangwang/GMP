@@ -9,6 +9,9 @@ This distribution is under the the same LGPL v3 and GPL v2 license.
 
 Please visit the official website for more details: https://gmplib.org/
 
+## Important notes
+The binary/ folder contains both a tar.gz file and a folder, which are equivalent. You can use either one.
+
 ##Compilation note:
 
 ### Compilation environment
@@ -28,5 +31,4 @@ make -j10
 make check
 make install
 ```
-
-See the CheckResults.txt for partial output of "make check".
+See the CheckResults.txt for output of "make check".
