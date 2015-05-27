@@ -33,4 +33,4 @@ make install
 ```
 
 ### Quality verification
-See the CheckResults.txt for output of "make check".
+See the "QualityVerification.txt" for the output of "make check".
