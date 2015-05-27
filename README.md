@@ -9,7 +9,7 @@ This distribution is under the the same LGPL v3 and GPL v2 license.
 
 Please visit the official website for more details: https://gmplib.org
 
-## Important notes
+## Usage
 The binary/ folder contains both a tar.gz file and a folder, which are equivalent. You can use either one.
 
 ##Compilation notes
