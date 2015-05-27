@@ -13,7 +13,7 @@ Please visit the official website for more details: https://gmplib.org/
 
 ### Compilation environment
 * CentOS 6.6
-* X86_64 architecture
+* x86_64 architecture
 * Compiler: gcc version 4.4.7 20120313 (Red Hat 4.4.7-11)
 
 ### Compilation steps
