@@ -1,0 +1,426 @@
+make  check-recursive
+make[1]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2'
+Making check in tests
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests'
+Making check in .
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests'
+make  libtests.la t-bswap t-constants t-count_zeros t-gmpmax t-hightomask t-modlinv t-popc t-parity t-sub
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests'
+make[4]: `libtests.la' is up to date.
+make[4]: `t-bswap' is up to date.
+make[4]: `t-constants' is up to date.
+make[4]: `t-count_zeros' is up to date.
+make[4]: `t-gmpmax' is up to date.
+make[4]: `t-hightomask' is up to date.
+make[4]: `t-modlinv' is up to date.
+make[4]: `t-popc' is up to date.
+make[4]: `t-parity' is up to date.
+make[4]: `t-sub' is up to date.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests'
+PASS: t-bswap
+PASS: t-constants
+PASS: t-count_zeros
+PASS: t-gmpmax
+PASS: t-hightomask
+PASS: t-modlinv
+PASS: t-popc
+PASS: t-parity
+PASS: t-sub
+==================
+All 9 tests passed
+==================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests'
+Making check in devel
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/devel'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/devel'
+Making check in mpn
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpn'
+make  t-asmtype t-aors_1 t-divrem_1 t-fat t-get_d t-instrument t-iord_u t-mp_bases t-perfsqr t-scan t-hgcd t-matrix22
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpn'
+make[4]: `t-asmtype' is up to date.
+make[4]: `t-aors_1' is up to date.
+make[4]: `t-divrem_1' is up to date.
+make[4]: `t-fat' is up to date.
+make[4]: `t-get_d' is up to date.
+make[4]: `t-instrument' is up to date.
+make[4]: `t-iord_u' is up to date.
+make[4]: `t-mp_bases' is up to date.
+make[4]: `t-perfsqr' is up to date.
+make[4]: `t-scan' is up to date.
+make[4]: `t-hgcd' is up to date.
+make[4]: `t-matrix22' is up to date.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpn'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpn'
+PASS: t-asmtype
+PASS: t-aors_1
+PASS: t-divrem_1
+PASS: t-fat
+PASS: t-get_d
+PASS: t-instrument
+PASS: t-iord_u
+PASS: t-mp_bases
+PASS: t-perfsqr
+PASS: t-scan
+PASS: t-hgcd
+PASS: t-matrix22
+===================
+All 12 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpn'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpn'
+Making check in mpz
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpz'
+make  t-addsub t-cmp t-mul t-mul_i t-tdiv t-tdiv_ui t-fdiv t-fdiv_ui t-cdiv_ui t-gcd t-gcd_ui t-lcm dive dive_ui t-sqrtrem convert io t-inp_str logic bit t-powm t-powm_ui t-pow t-div_2exp reuse t-root t-perfsqr t-perfpow t-jac t-bin t-get_d t-get_d_2exp t-get_si t-set_d t-set_si t-fac_ui t-fib_ui t-lucnum_ui t-scan t-fits t-divis t-divis_2exp t-cong t-cong_2exp t-sizeinbase t-set_str t-aorsmul t-cmp_d t-cmp_si t-hamdist t-oddeven t-popcount t-set_f t-io_raw t-import t-export t-pprime_p t-nextprime
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpz'
+make[4]: `t-addsub' is up to date.
+make[4]: `t-cmp' is up to date.
+make[4]: `t-mul' is up to date.
+make[4]: `t-mul_i' is up to date.
+make[4]: `t-tdiv' is up to date.
+make[4]: `t-tdiv_ui' is up to date.
+make[4]: `t-fdiv' is up to date.
+make[4]: `t-fdiv_ui' is up to date.
+make[4]: `t-cdiv_ui' is up to date.
+make[4]: `t-gcd' is up to date.
+make[4]: `t-gcd_ui' is up to date.
+make[4]: `t-lcm' is up to date.
+make[4]: `dive' is up to date.
+make[4]: `dive_ui' is up to date.
+make[4]: `t-sqrtrem' is up to date.
+make[4]: `convert' is up to date.
+make[4]: `io' is up to date.
+make[4]: `t-inp_str' is up to date.
+make[4]: `logic' is up to date.
+make[4]: `bit' is up to date.
+make[4]: `t-powm' is up to date.
+make[4]: `t-powm_ui' is up to date.
+make[4]: `t-pow' is up to date.
+make[4]: `t-div_2exp' is up to date.
+make[4]: `reuse' is up to date.
+make[4]: `t-root' is up to date.
+make[4]: `t-perfsqr' is up to date.
+make[4]: `t-perfpow' is up to date.
+make[4]: `t-jac' is up to date.
+make[4]: `t-bin' is up to date.
+make[4]: `t-get_d' is up to date.
+make[4]: `t-get_d_2exp' is up to date.
+make[4]: `t-get_si' is up to date.
+make[4]: `t-set_d' is up to date.
+make[4]: `t-set_si' is up to date.
+make[4]: `t-fac_ui' is up to date.
+make[4]: `t-fib_ui' is up to date.
+make[4]: `t-lucnum_ui' is up to date.
+make[4]: `t-scan' is up to date.
+make[4]: `t-fits' is up to date.
+make[4]: `t-divis' is up to date.
+make[4]: `t-divis_2exp' is up to date.
+make[4]: `t-cong' is up to date.
+make[4]: `t-cong_2exp' is up to date.
+make[4]: `t-sizeinbase' is up to date.
+make[4]: `t-set_str' is up to date.
+make[4]: `t-aorsmul' is up to date.
+make[4]: `t-cmp_d' is up to date.
+make[4]: `t-cmp_si' is up to date.
+make[4]: `t-hamdist' is up to date.
+make[4]: `t-oddeven' is up to date.
+make[4]: `t-popcount' is up to date.
+make[4]: `t-set_f' is up to date.
+make[4]: `t-io_raw' is up to date.
+make[4]: `t-import' is up to date.
+make[4]: `t-export' is up to date.
+make[4]: `t-pprime_p' is up to date.
+make[4]: `t-nextprime' is up to date.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpz'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpz'
+PASS: t-addsub
+PASS: t-cmp
+PASS: t-mul
+PASS: t-mul_i
+PASS: t-tdiv
+PASS: t-tdiv_ui
+PASS: t-fdiv
+PASS: t-fdiv_ui
+PASS: t-cdiv_ui
+PASS: t-gcd
+PASS: t-gcd_ui
+PASS: t-lcm
+PASS: dive
+PASS: dive_ui
+PASS: t-sqrtrem
+PASS: convert
+PASS: io
+PASS: t-inp_str
+PASS: logic
+PASS: bit
+PASS: t-powm
+PASS: t-powm_ui
+PASS: t-pow
+PASS: t-div_2exp
+PASS: reuse
+PASS: t-root
+PASS: t-perfsqr
+PASS: t-perfpow
+PASS: t-jac
+PASS: t-bin
+PASS: t-get_d
+PASS: t-get_d_2exp
+PASS: t-get_si
+PASS: t-set_d
+PASS: t-set_si
+PASS: t-fac_ui
+PASS: t-fib_ui
+PASS: t-lucnum_ui
+PASS: t-scan
+PASS: t-fits
+PASS: t-divis
+PASS: t-divis_2exp
+PASS: t-cong
+PASS: t-cong_2exp
+PASS: t-sizeinbase
+PASS: t-set_str
+PASS: t-aorsmul
+PASS: t-cmp_d
+PASS: t-cmp_si
+PASS: t-hamdist
+PASS: t-oddeven
+PASS: t-popcount
+PASS: t-set_f
+PASS: t-io_raw
+PASS: t-import
+PASS: t-export
+PASS: t-pprime_p
+PASS: t-nextprime
+===================
+All 58 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpz'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpz'
+Making check in mpq
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpq'
+make  t-aors t-cmp t-cmp_ui t-cmp_si t-equal t-get_d t-get_str t-inp_str t-md_2exp t-set_f t-set_str
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpq'
+make[4]: `t-aors' is up to date.
+make[4]: `t-cmp' is up to date.
+make[4]: `t-cmp_ui' is up to date.
+make[4]: `t-cmp_si' is up to date.
+make[4]: `t-equal' is up to date.
+make[4]: `t-get_d' is up to date.
+make[4]: `t-get_str' is up to date.
+make[4]: `t-inp_str' is up to date.
+make[4]: `t-md_2exp' is up to date.
+make[4]: `t-set_f' is up to date.
+make[4]: `t-set_str' is up to date.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpq'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpq'
+PASS: t-aors
+PASS: t-cmp
+PASS: t-cmp_ui
+PASS: t-cmp_si
+PASS: t-equal
+PASS: t-get_d
+PASS: t-get_str
+PASS: t-inp_str
+PASS: t-md_2exp
+PASS: t-set_f
+PASS: t-set_str
+===================
+All 11 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpq'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpq'
+Making check in mpf
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpf'
+make  t-add t-sub t-conv t-sqrt t-sqrt_ui t-muldiv t-dm2exp reuse t-cmp_d t-cmp_si t-div t-fits t-get_d t-get_d_2exp t-get_si t-get_ui t-gsprec t-inp_str t-int_p t-mul_ui t-set t-set_q t-set_si t-set_ui t-trunc t-ui_div
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpf'
+make[4]: `t-add' is up to date.
+make[4]: `t-sub' is up to date.
+make[4]: `t-conv' is up to date.
+make[4]: `t-sqrt' is up to date.
+make[4]: `t-sqrt_ui' is up to date.
+make[4]: `t-muldiv' is up to date.
+make[4]: `t-dm2exp' is up to date.
+make[4]: `reuse' is up to date.
+make[4]: `t-cmp_d' is up to date.
+make[4]: `t-cmp_si' is up to date.
+make[4]: `t-div' is up to date.
+make[4]: `t-fits' is up to date.
+make[4]: `t-get_d' is up to date.
+make[4]: `t-get_d_2exp' is up to date.
+make[4]: `t-get_si' is up to date.
+make[4]: `t-get_ui' is up to date.
+make[4]: `t-gsprec' is up to date.
+make[4]: `t-inp_str' is up to date.
+make[4]: `t-int_p' is up to date.
+make[4]: `t-mul_ui' is up to date.
+make[4]: `t-set' is up to date.
+make[4]: `t-set_q' is up to date.
+make[4]: `t-set_si' is up to date.
+make[4]: `t-set_ui' is up to date.
+make[4]: `t-trunc' is up to date.
+make[4]: `t-ui_div' is up to date.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpf'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpf'
+PASS: t-add
+PASS: t-sub
+PASS: t-conv
+PASS: t-sqrt
+PASS: t-sqrt_ui
+PASS: t-muldiv
+PASS: t-dm2exp
+PASS: reuse
+PASS: t-cmp_d
+PASS: t-cmp_si
+PASS: t-div
+PASS: t-fits
+PASS: t-get_d
+PASS: t-get_d_2exp
+PASS: t-get_si
+PASS: t-get_ui
+PASS: t-gsprec
+PASS: t-inp_str
+PASS: t-int_p
+PASS: t-mul_ui
+PASS: t-set
+PASS: t-set_q
+PASS: t-set_si
+PASS: t-set_ui
+PASS: t-trunc
+PASS: t-ui_div
+===================
+All 26 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpf'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpf'
+Making check in rand
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/rand'
+make  t-iset t-lc2exp t-mt t-rand t-urbui t-urmui t-urndmm
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/rand'
+make[4]: `t-iset' is up to date.
+make[4]: `t-lc2exp' is up to date.
+make[4]: `t-mt' is up to date.
+make[4]: `t-rand' is up to date.
+make[4]: `t-urbui' is up to date.
+make[4]: `t-urmui' is up to date.
+make[4]: `t-urndmm' is up to date.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/rand'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/rand'
+PASS: t-iset
+PASS: t-lc2exp
+PASS: t-mt
+PASS: t-rand
+PASS: t-urbui
+PASS: t-urmui
+PASS: t-urndmm
+==================
+All 7 tests passed
+==================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/rand'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/rand'
+Making check in misc
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/misc'
+make  t-printf t-scanf t-locale
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/misc'
+make[4]: `t-printf' is up to date.
+make[4]: `t-scanf' is up to date.
+make[4]: `t-locale' is up to date.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/misc'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/misc'
+PASS: t-printf
+PASS: t-scanf
+PASS: t-locale
+==================
+All 3 tests passed
+==================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/misc'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/misc'
+Making check in cxx
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/cxx'
+make  
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/cxx'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/cxx'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/cxx'
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/cxx'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/cxx'
+Making check in mpbsd
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpbsd'
+make  
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpbsd'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpbsd'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpbsd'
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpbsd'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests/mpbsd'
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tests'
+Making check in mpn
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpn'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpn'
+Making check in mpz
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpz'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpz'
+Making check in mpq
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpq'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpq'
+Making check in mpf
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpf'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpf'
+Making check in printf
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/printf'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/printf'
+Making check in scanf
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/scanf'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/scanf'
+Making check in cxx
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/cxx'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/cxx'
+Making check in mpbsd
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpbsd'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/mpbsd'
+Making check in demos
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos'
+Making check in calc
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos/calc'
+make  check-am
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos/calc'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos/calc'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos/calc'
+Making check in expr
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos/expr'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos/expr'
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos'
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/demos'
+Making check in tune
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tune'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/tune'
+Making check in doc
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2/doc'
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2'
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2'
+make[1]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2'
