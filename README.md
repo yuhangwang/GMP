@@ -7,7 +7,7 @@ This is an unofficial distribution of the binary&source form of the GNU GMP libr
 
 This distribution is under the the same LGPL v3 and GPL v2 license.
 
-Please visit the official website for more details: https://gmplib.org/
+Please visit the official website for more details: https://gmplib.org
 
 ## Important notes
 The binary/ folder contains both a tar.gz file and a folder, which are equivalent. You can use either one.
