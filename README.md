@@ -7,7 +7,9 @@ This is an unofficial redistribution of the binary&source form of the GNU GMP li
 
 Please visit the official website for more details: https://gmplib.org/
 
-Compilation note:
+##Compilation note:
+
+```bash
 wget ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-4.3.2.tar.bz2
 bunzip2 gmp-4.3.2.tar.bz2
 tar xvf gmp-4.3.2.tar
@@ -17,6 +19,7 @@ cd build_gmp-4.3.2
 make -j10
 make check
 make install
+```
 
 
 See the CheckResults.txt for partial output of "make check".
