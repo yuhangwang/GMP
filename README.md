@@ -3,9 +3,9 @@
 
 The GNU Multiple Precision Arithmetic Library
 
-This is an unofficial distribution of the binary&source form of the GNU GMP library (a prerequisite for compiling programs like GCC), under the terms of LGPL v3 and GPL v2.
+This is an unofficial distribution of the binary&source form of the GNU GMP library (a prerequisite for compiling programs like GCC), under the terms of LGPL 3.0 and GPL 2.0 licenses.
 
-This distribution is under the the same LGPL v3 and GPL v2 license.
+This distribution is under the the same LGPL 3.0 and GPL 2.0 license.
 
 Please visit the official website for more details: https://gmplib.org
 
