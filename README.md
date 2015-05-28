@@ -36,9 +36,9 @@ make install
 wget ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-4.3.2.tar.bz2
 bunzip2 gmp-4.3.2.tar.bz2
 tar xvf gmp-4.3.2.tar
-mkdir build_gmp-4.3.2_with_gcc4.4.7
-cd build_gmp-4.3.2_with_gcc4.4.7
-../gmp-4.3.2/configure --prefix=/home/steven/install/libgmp/4.3.2 --enable-cxx=yes
+mkdir build_for_gcc-4.4.7_gmp-4.3.2
+cd build_for_gcc-4.4.7_gmp-4.3.2
+../gmp-4.3.2/configure --prefix=/home/steven/install/libgmp/with_cxx_support/for_gcc_4.4.7/4.3.2 --enable-cxx=yes
 make -j10
 make check
 make install

@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Scr/scr-test-steven/install/libgmp/with_cxx_support/4.3.2/lib'
+libdir='/Scr/scr-test-steven/install/libgmp/with_cxx_support/for_gcc_4.4.7/4.3.2/lib'
