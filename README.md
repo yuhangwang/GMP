@@ -18,7 +18,7 @@ The binary/ folder contains both a tar.gz file and a folder, which are equivalen
 * Compiler: gcc version 4.4.7 20120313 (Red Hat 4.4.7-11)
 
 ### Compilation steps
-#### Without C++ support**
+#### Without C++ support
 ```bash
 wget ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-4.3.2.tar.bz2
 bunzip2 gmp-4.3.2.tar.bz2
@@ -31,7 +31,7 @@ make check
 make install
 ```
 
-#### With C++ support**
+#### With C++ support
 ```bash
 wget ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-4.3.2.tar.bz2
 bunzip2 gmp-4.3.2.tar.bz2
