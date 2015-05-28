@@ -1,0 +1,921 @@
+make  check-recursive
+make[1]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7'
+Making check in tests
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests'
+Making check in .
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests'
+make  libtests.la t-bswap t-constants t-count_zeros t-gmpmax t-hightomask t-modlinv t-popc t-parity t-sub
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests'
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o memory.lo ../../gmp-4.3.2/tests/memory.c
+mkdir .libs
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/memory.c  -fPIC -DPIC -o .libs/memory.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/memory.c -o memory.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o misc.lo ../../gmp-4.3.2/tests/misc.c
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/misc.c  -fPIC -DPIC -o .libs/misc.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/misc.c -o misc.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o refmpf.lo ../../gmp-4.3.2/tests/refmpf.c
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/refmpf.c  -fPIC -DPIC -o .libs/refmpf.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/refmpf.c -o refmpf.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o refmpn.lo ../../gmp-4.3.2/tests/refmpn.c
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/refmpn.c  -fPIC -DPIC -o .libs/refmpn.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/refmpn.c -o refmpn.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o refmpq.lo ../../gmp-4.3.2/tests/refmpq.c
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/refmpq.c  -fPIC -DPIC -o .libs/refmpq.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/refmpq.c -o refmpq.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o refmpz.lo ../../gmp-4.3.2/tests/refmpz.c
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/refmpz.c  -fPIC -DPIC -o .libs/refmpz.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/refmpz.c -o refmpz.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o spinner.lo ../../gmp-4.3.2/tests/spinner.c
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/spinner.c  -fPIC -DPIC -o .libs/spinner.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/spinner.c -o spinner.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o trace.lo ../../gmp-4.3.2/tests/trace.c
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/trace.c  -fPIC -DPIC -o .libs/trace.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/trace.c -o trace.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile --tag=CC ../../gmp-4.3.2/mpn/m4-ccas --m4="m4" /usr/bin/gcc -std=gnu99 -c -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -Wa,--noexecstack `test -f '../../gmp-4.3.2/tests/amd64call.asm' || echo '../../gmp-4.3.2/tests/'`../../gmp-4.3.2/tests/amd64call.asm
+ ../../gmp-4.3.2/mpn/m4-ccas --m4=m4 /usr/bin/gcc -std=gnu99 -c -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -Wa,--noexecstack ../../gmp-4.3.2/tests/amd64call.asm  -fPIC -DPIC -o .libs/amd64call.o
+m4  -DHAVE_CONFIG_H -DPIC ../../gmp-4.3.2/tests/amd64call.asm >tmp-amd64call.s
+ /usr/bin/gcc -std=gnu99 -c -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -Wa,--noexecstack tmp-amd64call.s -fPIC -DPIC -o .libs/amd64call.o
+ ../../gmp-4.3.2/mpn/m4-ccas --m4=m4 /usr/bin/gcc -std=gnu99 -c -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -Wa,--noexecstack ../../gmp-4.3.2/tests/amd64call.asm -o amd64call.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c -o amd64check.lo ../../gmp-4.3.2/tests/amd64check.c
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/amd64check.c  -fPIC -DPIC -o .libs/amd64check.o
+ /usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2 -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/amd64check.c -o amd64check.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o libtests.la   memory.lo misc.lo refmpf.lo refmpn.lo refmpq.lo refmpz.lo spinner.lo trace.lo amd64call.lo amd64check.lo ../libgmp.la 
+ar cq .libs/libtests.a .libs/memory.o .libs/misc.o .libs/refmpf.o .libs/refmpn.o .libs/refmpq.o .libs/refmpz.o .libs/spinner.o .libs/trace.o .libs/amd64call.o .libs/amd64check.o
+ranlib .libs/libtests.a
+creating libtests.la
+(cd .libs && rm -f libtests.la && ln -s ../libtests.la libtests.la)
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-bswap.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-bswap  t-bswap.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-bswap t-bswap.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-bswap
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-constants.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-constants  t-constants.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-constants t-constants.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-constants
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-count_zeros.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-count_zeros  t-count_zeros.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-count_zeros t-count_zeros.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-count_zeros
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-gmpmax.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-gmpmax  t-gmpmax.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-gmpmax t-gmpmax.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-gmpmax
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-hightomask.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-hightomask  t-hightomask.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-hightomask t-hightomask.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-hightomask
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-modlinv.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-modlinv  t-modlinv.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-modlinv t-modlinv.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-modlinv
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-popc.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-popc  t-popc.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-popc t-popc.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-popc
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-parity.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-parity  t-parity.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-parity t-parity.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-parity
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../gmp-4.3.2/tests -I.. -I../../gmp-4.3.2    -O2 -pedantic -m64 -mtune=core2 -c ../../gmp-4.3.2/tests/t-sub.c
+/bin/sh ../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-sub  t-sub.o libtests.la ../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-sub t-sub.o  ./.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-sub
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests'
+PASS: t-bswap
+PASS: t-constants
+PASS: t-count_zeros
+PASS: t-gmpmax
+PASS: t-hightomask
+PASS: t-modlinv
+PASS: t-popc
+PASS: t-parity
+PASS: t-sub
+==================
+All 9 tests passed
+==================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests'
+Making check in devel
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/devel'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/devel'
+Making check in mpn
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpn'
+make  t-asmtype t-aors_1 t-divrem_1 t-fat t-get_d t-instrument t-iord_u t-mp_bases t-perfsqr t-scan t-hgcd t-matrix22
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpn'
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-asmtype.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-asmtype  t-asmtype.o ../../tests/libtests.la ../../libgmp.la 
+mkdir .libs
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-asmtype t-asmtype.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-asmtype
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-aors_1.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-aors_1  t-aors_1.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-aors_1 t-aors_1.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-aors_1
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-divrem_1.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-divrem_1  t-divrem_1.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-divrem_1 t-divrem_1.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-divrem_1
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-fat.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-fat  t-fat.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-fat t-fat.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-fat
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-get_d.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_d  t-get_d.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_d t-get_d.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_d
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-instrument.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-instrument  t-instrument.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-instrument t-instrument.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-instrument
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-iord_u.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-iord_u  t-iord_u.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-iord_u t-iord_u.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-iord_u
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-mp_bases.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-mp_bases  t-mp_bases.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-mp_bases t-mp_bases.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-mp_bases
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-perfsqr.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-perfsqr  t-perfsqr.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-perfsqr t-perfsqr.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-perfsqr
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-scan.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-scan  t-scan.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-scan t-scan.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-scan
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-hgcd.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-hgcd  t-hgcd.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-hgcd t-hgcd.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-hgcd
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpn -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpn/t-matrix22.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-matrix22  t-matrix22.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-matrix22 t-matrix22.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-matrix22
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpn'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpn'
+PASS: t-asmtype
+PASS: t-aors_1
+PASS: t-divrem_1
+PASS: t-fat
+PASS: t-get_d
+PASS: t-instrument
+PASS: t-iord_u
+PASS: t-mp_bases
+PASS: t-perfsqr
+PASS: t-scan
+PASS: t-hgcd
+PASS: t-matrix22
+===================
+All 12 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpn'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpn'
+Making check in mpz
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpz'
+make  t-addsub t-cmp t-mul t-mul_i t-tdiv t-tdiv_ui t-fdiv t-fdiv_ui t-cdiv_ui t-gcd t-gcd_ui t-lcm dive dive_ui t-sqrtrem convert io t-inp_str logic bit t-powm t-powm_ui t-pow t-div_2exp reuse t-root t-perfsqr t-perfpow t-jac t-bin t-get_d t-get_d_2exp t-get_si t-set_d t-set_si t-fac_ui t-fib_ui t-lucnum_ui t-scan t-fits t-divis t-divis_2exp t-cong t-cong_2exp t-sizeinbase t-set_str t-aorsmul t-cmp_d t-cmp_si t-hamdist t-oddeven t-popcount t-set_f t-io_raw t-import t-export t-pprime_p t-nextprime
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpz'
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-addsub.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-addsub  t-addsub.o ../../tests/libtests.la ../../libgmp.la 
+mkdir .libs
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-addsub t-addsub.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-addsub
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-cmp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cmp  t-cmp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cmp t-cmp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cmp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-mul.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-mul  t-mul.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-mul t-mul.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-mul
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-mul_i.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-mul_i  t-mul_i.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-mul_i t-mul_i.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-mul_i
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-tdiv.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-tdiv  t-tdiv.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-tdiv t-tdiv.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-tdiv
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-tdiv_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-tdiv_ui  t-tdiv_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-tdiv_ui t-tdiv_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-tdiv_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-fdiv.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-fdiv  t-fdiv.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-fdiv t-fdiv.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-fdiv
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-fdiv_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-fdiv_ui  t-fdiv_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-fdiv_ui t-fdiv_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-fdiv_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-cdiv_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cdiv_ui  t-cdiv_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cdiv_ui t-cdiv_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cdiv_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-gcd.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-gcd  t-gcd.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-gcd t-gcd.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-gcd
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-gcd_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-gcd_ui  t-gcd_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-gcd_ui t-gcd_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-gcd_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-lcm.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-lcm  t-lcm.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-lcm t-lcm.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-lcm
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/dive.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o dive  dive.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/dive dive.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating dive
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/dive_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o dive_ui  dive_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/dive_ui dive_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating dive_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-sqrtrem.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-sqrtrem  t-sqrtrem.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-sqrtrem t-sqrtrem.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-sqrtrem
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/convert.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o convert  convert.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/convert convert.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating convert
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/io.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o io  io.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/io io.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating io
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-inp_str.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-inp_str  t-inp_str.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-inp_str t-inp_str.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-inp_str
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/logic.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o logic  logic.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/logic logic.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating logic
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/bit.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o bit  bit.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/bit bit.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating bit
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-powm.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-powm  t-powm.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-powm t-powm.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-powm
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-powm_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-powm_ui  t-powm_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-powm_ui t-powm_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-powm_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-pow.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-pow  t-pow.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-pow t-pow.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-pow
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-div_2exp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-div_2exp  t-div_2exp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-div_2exp t-div_2exp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-div_2exp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/reuse.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o reuse  reuse.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/reuse reuse.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating reuse
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-root.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-root  t-root.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-root t-root.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-root
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-perfsqr.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-perfsqr  t-perfsqr.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-perfsqr t-perfsqr.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-perfsqr
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-perfpow.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-perfpow  t-perfpow.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-perfpow t-perfpow.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-perfpow
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-jac.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-jac  t-jac.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-jac t-jac.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-jac
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-bin.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-bin  t-bin.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-bin t-bin.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-bin
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-get_d.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_d  t-get_d.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_d t-get_d.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_d
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-get_d_2exp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_d_2exp  t-get_d_2exp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_d_2exp t-get_d_2exp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_d_2exp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-get_si.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_si  t-get_si.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_si t-get_si.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_si
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-set_d.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_d  t-set_d.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_d t-set_d.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_d
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-set_si.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_si  t-set_si.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_si t-set_si.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_si
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-fac_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-fac_ui  t-fac_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-fac_ui t-fac_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-fac_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-fib_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-fib_ui  t-fib_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-fib_ui t-fib_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-fib_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-lucnum_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-lucnum_ui  t-lucnum_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-lucnum_ui t-lucnum_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-lucnum_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-scan.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-scan  t-scan.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-scan t-scan.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-scan
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-fits.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-fits  t-fits.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-fits t-fits.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-fits
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-divis.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-divis  t-divis.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-divis t-divis.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-divis
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-divis_2exp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-divis_2exp  t-divis_2exp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-divis_2exp t-divis_2exp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-divis_2exp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-cong.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cong  t-cong.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cong t-cong.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cong
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-cong_2exp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cong_2exp  t-cong_2exp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cong_2exp t-cong_2exp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cong_2exp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-sizeinbase.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-sizeinbase  t-sizeinbase.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-sizeinbase t-sizeinbase.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-sizeinbase
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-set_str.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_str  t-set_str.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_str t-set_str.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_str
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-aorsmul.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-aorsmul  t-aorsmul.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-aorsmul t-aorsmul.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-aorsmul
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-cmp_d.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cmp_d  t-cmp_d.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cmp_d t-cmp_d.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cmp_d
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-cmp_si.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cmp_si  t-cmp_si.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cmp_si t-cmp_si.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cmp_si
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-hamdist.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-hamdist  t-hamdist.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-hamdist t-hamdist.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-hamdist
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-oddeven.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-oddeven  t-oddeven.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-oddeven t-oddeven.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-oddeven
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-popcount.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-popcount  t-popcount.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-popcount t-popcount.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-popcount
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-set_f.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_f  t-set_f.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_f t-set_f.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_f
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-io_raw.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-io_raw  t-io_raw.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-io_raw t-io_raw.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-io_raw
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-import.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-import  t-import.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-import t-import.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-import
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-export.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-export  t-export.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-export t-export.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-export
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-pprime_p.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-pprime_p  t-pprime_p.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-pprime_p t-pprime_p.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-pprime_p
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpz -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpz/t-nextprime.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-nextprime  t-nextprime.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-nextprime t-nextprime.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-nextprime
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpz'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpz'
+PASS: t-addsub
+PASS: t-cmp
+PASS: t-mul
+PASS: t-mul_i
+PASS: t-tdiv
+PASS: t-tdiv_ui
+PASS: t-fdiv
+PASS: t-fdiv_ui
+PASS: t-cdiv_ui
+PASS: t-gcd
+PASS: t-gcd_ui
+PASS: t-lcm
+PASS: dive
+PASS: dive_ui
+PASS: t-sqrtrem
+PASS: convert
+PASS: io
+PASS: t-inp_str
+PASS: logic
+PASS: bit
+PASS: t-powm
+PASS: t-powm_ui
+PASS: t-pow
+PASS: t-div_2exp
+PASS: reuse
+PASS: t-root
+PASS: t-perfsqr
+PASS: t-perfpow
+PASS: t-jac
+PASS: t-bin
+PASS: t-get_d
+PASS: t-get_d_2exp
+PASS: t-get_si
+PASS: t-set_d
+PASS: t-set_si
+PASS: t-fac_ui
+PASS: t-fib_ui
+PASS: t-lucnum_ui
+PASS: t-scan
+PASS: t-fits
+PASS: t-divis
+PASS: t-divis_2exp
+PASS: t-cong
+PASS: t-cong_2exp
+PASS: t-sizeinbase
+PASS: t-set_str
+PASS: t-aorsmul
+PASS: t-cmp_d
+PASS: t-cmp_si
+PASS: t-hamdist
+PASS: t-oddeven
+PASS: t-popcount
+PASS: t-set_f
+PASS: t-io_raw
+PASS: t-import
+PASS: t-export
+PASS: t-pprime_p
+PASS: t-nextprime
+===================
+All 58 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpz'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpz'
+Making check in mpq
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpq'
+make  t-aors t-cmp t-cmp_ui t-cmp_si t-equal t-get_d t-get_str t-inp_str t-md_2exp t-set_f t-set_str
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpq'
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-aors.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-aors  t-aors.o ../../tests/libtests.la ../../libgmp.la 
+mkdir .libs
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-aors t-aors.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-aors
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-cmp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cmp  t-cmp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cmp t-cmp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cmp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-cmp_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cmp_ui  t-cmp_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cmp_ui t-cmp_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cmp_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-cmp_si.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cmp_si  t-cmp_si.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cmp_si t-cmp_si.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cmp_si
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-equal.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-equal  t-equal.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-equal t-equal.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-equal
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-get_d.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_d  t-get_d.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_d t-get_d.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_d
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-get_str.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_str  t-get_str.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_str t-get_str.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_str
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-inp_str.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-inp_str  t-inp_str.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-inp_str t-inp_str.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-inp_str
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-md_2exp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-md_2exp  t-md_2exp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-md_2exp t-md_2exp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-md_2exp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-set_f.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_f  t-set_f.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_f t-set_f.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_f
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpq -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpq/t-set_str.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_str  t-set_str.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_str t-set_str.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_str
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpq'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpq'
+PASS: t-aors
+PASS: t-cmp
+PASS: t-cmp_ui
+PASS: t-cmp_si
+PASS: t-equal
+PASS: t-get_d
+PASS: t-get_str
+PASS: t-inp_str
+PASS: t-md_2exp
+PASS: t-set_f
+PASS: t-set_str
+===================
+All 11 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpq'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpq'
+Making check in mpf
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpf'
+make  t-add t-sub t-conv t-sqrt t-sqrt_ui t-muldiv t-dm2exp reuse t-cmp_d t-cmp_si t-div t-fits t-get_d t-get_d_2exp t-get_si t-get_ui t-gsprec t-inp_str t-int_p t-mul_ui t-set t-set_q t-set_si t-set_ui t-trunc t-ui_div
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpf'
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-add.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-add  t-add.o ../../tests/libtests.la ../../libgmp.la 
+mkdir .libs
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-add t-add.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-add
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-sub.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-sub  t-sub.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-sub t-sub.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-sub
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-conv.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-conv  t-conv.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-conv t-conv.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-conv
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-sqrt.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-sqrt  t-sqrt.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-sqrt t-sqrt.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-sqrt
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-sqrt_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-sqrt_ui  t-sqrt_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-sqrt_ui t-sqrt_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-sqrt_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-muldiv.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-muldiv  t-muldiv.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-muldiv t-muldiv.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-muldiv
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-dm2exp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-dm2exp  t-dm2exp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-dm2exp t-dm2exp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-dm2exp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/reuse.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o reuse  reuse.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/reuse reuse.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating reuse
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-cmp_d.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cmp_d  t-cmp_d.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cmp_d t-cmp_d.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cmp_d
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-cmp_si.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-cmp_si  t-cmp_si.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cmp_si t-cmp_si.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cmp_si
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-div.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-div  t-div.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-div t-div.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-div
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-fits.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-fits  t-fits.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-fits t-fits.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-fits
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-get_d.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_d  t-get_d.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_d t-get_d.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_d
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-get_d_2exp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_d_2exp  t-get_d_2exp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_d_2exp t-get_d_2exp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_d_2exp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-get_si.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_si  t-get_si.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_si t-get_si.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_si
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-get_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-get_ui  t-get_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-get_ui t-get_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-get_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-gsprec.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-gsprec  t-gsprec.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-gsprec t-gsprec.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-gsprec
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-inp_str.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-inp_str  t-inp_str.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-inp_str t-inp_str.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-inp_str
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-int_p.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-int_p  t-int_p.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-int_p t-int_p.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-int_p
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-mul_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-mul_ui  t-mul_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-mul_ui t-mul_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-mul_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-set.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set  t-set.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set t-set.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-set_q.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_q  t-set_q.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_q t-set_q.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_q
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-set_si.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_si  t-set_si.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_si t-set_si.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_si
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-set_ui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-set_ui  t-set_ui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-set_ui t-set_ui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-set_ui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-trunc.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-trunc  t-trunc.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-trunc t-trunc.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-trunc
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/mpf -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/mpf/t-ui_div.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-ui_div  t-ui_div.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-ui_div t-ui_div.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-ui_div
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpf'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpf'
+PASS: t-add
+PASS: t-sub
+PASS: t-conv
+PASS: t-sqrt
+PASS: t-sqrt_ui
+PASS: t-muldiv
+PASS: t-dm2exp
+PASS: reuse
+PASS: t-cmp_d
+PASS: t-cmp_si
+PASS: t-div
+PASS: t-fits
+PASS: t-get_d
+PASS: t-get_d_2exp
+PASS: t-get_si
+PASS: t-get_ui
+PASS: t-gsprec
+PASS: t-inp_str
+PASS: t-int_p
+PASS: t-mul_ui
+PASS: t-set
+PASS: t-set_q
+PASS: t-set_si
+PASS: t-set_ui
+PASS: t-trunc
+PASS: t-ui_div
+===================
+All 26 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpf'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpf'
+Making check in rand
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/rand'
+make  t-iset t-lc2exp t-mt t-rand t-urbui t-urmui t-urndmm
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/rand'
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/rand -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/rand/t-iset.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-iset  t-iset.o ../../tests/libtests.la ../../libgmp.la 
+mkdir .libs
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-iset t-iset.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-iset
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/rand -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/rand/t-lc2exp.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-lc2exp  t-lc2exp.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-lc2exp t-lc2exp.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-lc2exp
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/rand -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/rand/t-mt.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-mt  t-mt.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-mt t-mt.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-mt
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/rand -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/rand/t-rand.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-rand  t-rand.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-rand t-rand.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-rand
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/rand -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/rand/t-urbui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-urbui  t-urbui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-urbui t-urbui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-urbui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/rand -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/rand/t-urmui.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-urmui  t-urmui.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-urmui t-urmui.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-urmui
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/rand -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/rand/t-urndmm.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-urndmm  t-urndmm.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-urndmm t-urndmm.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-urndmm
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/rand'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/rand'
+PASS: t-iset
+PASS: t-lc2exp
+PASS: t-mt
+PASS: t-rand
+PASS: t-urbui
+PASS: t-urmui
+PASS: t-urndmm
+==================
+All 7 tests passed
+==================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/rand'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/rand'
+Making check in misc
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/misc'
+make  t-printf t-scanf t-locale
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/misc'
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/misc -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/misc/t-printf.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-printf  t-printf.o ../../tests/libtests.la ../../libgmp.la 
+mkdir .libs
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-printf t-printf.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-printf
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/misc -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/misc/t-scanf.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-scanf  t-scanf.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-scanf t-scanf.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-scanf
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/misc -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/misc/t-locale.c
+/bin/sh ../../libtool --mode=link /usr/bin/gcc -std=gnu99  -O2 -pedantic -m64 -mtune=core2   -o t-locale  t-locale.o ../../tests/libtests.la ../../libgmp.la 
+/usr/bin/gcc -std=gnu99 -O2 -pedantic -m64 -mtune=core2 -o .libs/t-locale t-locale.o  ../../tests/.libs/libtests.a /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-locale
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/misc'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/misc'
+PASS: t-printf
+PASS: t-scanf
+PASS: t-locale
+==================
+All 3 tests passed
+==================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/misc'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/misc'
+Making check in cxx
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/cxx'
+make  t-assign t-binary t-cast t-constr t-headers t-istream t-locale t-misc t-ops t-ostream t-prec t-rand t-ternary t-unary
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/cxx'
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-assign.o ../../../gmp-4.3.2/tests/cxx/t-assign.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-assign  t-assign.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+mkdir .libs
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-assign t-assign.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-assign
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-binary.o ../../../gmp-4.3.2/tests/cxx/t-binary.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-binary  t-binary.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-binary t-binary.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-binary
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-cast.o ../../../gmp-4.3.2/tests/cxx/t-cast.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-cast  t-cast.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-cast t-cast.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-cast
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-constr.o ../../../gmp-4.3.2/tests/cxx/t-constr.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-constr  t-constr.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-constr t-constr.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-constr
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-headers.o ../../../gmp-4.3.2/tests/cxx/t-headers.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-headers  t-headers.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-headers t-headers.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-headers
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-istream.o ../../../gmp-4.3.2/tests/cxx/t-istream.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-istream  t-istream.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-istream t-istream.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-istream
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-locale.o ../../../gmp-4.3.2/tests/cxx/t-locale.cc
+/usr/bin/gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c ../../../gmp-4.3.2/tests/cxx/clocale.c
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-locale  t-locale.o clocale.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-locale t-locale.o clocale.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-locale
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-misc.o ../../../gmp-4.3.2/tests/cxx/t-misc.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-misc  t-misc.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-misc t-misc.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-misc
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-ops.o ../../../gmp-4.3.2/tests/cxx/t-ops.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-ops  t-ops.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-ops t-ops.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-ops
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-ostream.o ../../../gmp-4.3.2/tests/cxx/t-ostream.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-ostream  t-ostream.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-ostream t-ostream.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-ostream
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-prec.o ../../../gmp-4.3.2/tests/cxx/t-prec.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-prec  t-prec.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-prec t-prec.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-prec
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-rand.o ../../../gmp-4.3.2/tests/cxx/t-rand.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-rand  t-rand.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-rand t-rand.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-rand
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-ternary.o ../../../gmp-4.3.2/tests/cxx/t-ternary.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-ternary  t-ternary.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-ternary t-ternary.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-ternary
+/usr/bin/c++ -DHAVE_CONFIG_H -I. -I../../../gmp-4.3.2/tests/cxx -I../.. -I../../../gmp-4.3.2 -I../../../gmp-4.3.2/tests    -O2 -pedantic -m64 -mtune=core2 -c -o t-unary.o ../../../gmp-4.3.2/tests/cxx/t-unary.cc
+/bin/sh ../../libtool --mode=link /usr/bin/c++  -O2 -pedantic -m64 -mtune=core2   -o t-unary  t-unary.o -L../../.libs ../../tests/libtests.la ../../libgmpxx.la ../../libgmp.la 
+/usr/bin/c++ -O2 -pedantic -m64 -mtune=core2 -o .libs/t-unary t-unary.o  -L/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs ../../tests/.libs/libtests.a ../../.libs/libgmpxx.so /home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/.libs/libgmp.so ../../.libs/libgmp.so  -Wl,--rpath -Wl,/home/steven/install/libgmp/with_cxx_support/4.3.2/lib
+creating t-unary
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/cxx'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/cxx'
+PASS: t-assign
+PASS: t-binary
+PASS: t-cast
+PASS: t-constr
+PASS: t-headers
+PASS: t-istream
+PASS: t-locale
+PASS: t-misc
+PASS: t-ops
+PASS: t-ostream
+PASS: t-prec
+PASS: t-rand
+PASS: t-ternary
+PASS: t-unary
+===================
+All 14 tests passed
+===================
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/cxx'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/cxx'
+Making check in mpbsd
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpbsd'
+make  
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpbsd'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpbsd'
+make  check-TESTS
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpbsd'
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpbsd'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests/mpbsd'
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tests'
+Making check in mpn
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpn'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpn'
+Making check in mpz
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpz'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpz'
+Making check in mpq
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpq'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpq'
+Making check in mpf
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpf'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpf'
+Making check in printf
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/printf'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/printf'
+Making check in scanf
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/scanf'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/scanf'
+Making check in cxx
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/cxx'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/cxx'
+Making check in mpbsd
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpbsd'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/mpbsd'
+Making check in demos
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos'
+Making check in calc
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos/calc'
+make  check-am
+make[4]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos/calc'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos/calc'
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos/calc'
+Making check in expr
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos/expr'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos/expr'
+make[3]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos'
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/demos'
+Making check in tune
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tune'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/tune'
+Making check in doc
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7/doc'
+make[2]: Entering directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7'
+make[2]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7'
+make[1]: Leaving directory `/home/steven/Programs/LibGMP/build_gmp-4.3.2_with_gcc4.4.7'
