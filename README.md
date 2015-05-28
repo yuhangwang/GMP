@@ -1,11 +1,9 @@
 # GMP
-**version: 4.3.2**
-
 The GNU Multiple Precision Arithmetic Library
 
-This is an unofficial distribution of the binary&source form of the GNU GMP library (a prerequisite for compiling programs like GCC), under the terms of LGPL 3.0 and GPL 2.0 licenses.
+This is an unofficial verbatim redistribution of the binary&source form of the GNU GMP library (a prerequisite for compiling programs like GCC), under the terms of LGPL 3.0 and GPL 2.0 licenses.
 
-This distribution is under the the same LGPL 3.0 and GPL 2.0 license.
+This redistribution is under the the same LGPL 3.0 and GPL 2.0 license.
 
 Please visit the official website for more details: https://gmplib.org
 
@@ -26,7 +24,7 @@ bunzip2 gmp-4.3.2.tar.bz2
 tar xvf gmp-4.3.2.tar
 mkdir build_gmp-4.3.2
 cd build_gmp-4.3.2
-../gmp-4.3.2/configure --prefix=/home/steven/local
+../gmp-4.3.2/configure --prefix=/home/steven/install/libgmp/4.3.2
 make -j10
 make check
 make install
