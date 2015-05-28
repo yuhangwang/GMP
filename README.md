@@ -1,5 +1,5 @@
 # GMP
-The GNU Multiple Precision Arithmetic Library
+**The GNU Multiple Precision Arithmetic Library**
 
 This is an unofficial verbatim redistribution of the binary&source form of the GNU GMP library (a prerequisite for compiling programs like GCC), under the terms of LGPL 3.0 and GPL 2.0 licenses.
 
